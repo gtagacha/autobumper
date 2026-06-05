@@ -131,7 +131,7 @@ func runBumpLoop() {
 		default:
 			sendBump()
 
-			min := 2 * time.Hour
+			min := 24 * time.Hour
 			maxExtra := 30 * time.Minute
 			r := rand.New(rand.NewSource(time.Now().UnixNano()))
 			delay := min + time.Duration(r.Int63n(int64(maxExtra)))
