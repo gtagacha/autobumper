@@ -16,7 +16,7 @@ import (
 	"github.com/krishnassh/discoself/types"
 )
 
-const disboardAppID = "493224032167002123"
+const disboardAppID = "1222548162741538938"
 
 var (
 	token     string
